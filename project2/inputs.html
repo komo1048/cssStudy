@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입력 폼</title>
+  </head>
+  <body>
+    <h1>입사 지원서</h1>
+    <h2>필수 정보</h2>
+    <!-- div 태그를 묶는 것 하나의 블럭 처리가 됨-->
+    <div>
+      <label>이름</label>
+      <input type="text" id="name" />
+    </div>
+
+    <div>
+      <label>생년월일</label>
+      <input type="date" id="birth" />
+    </div>
+
+    <div>
+      <label>성별</label>
+      <select>
+        <option>남성</option>
+        <option>여성</option>
+      </select>
+    </div>
+
+    <div>
+      <h2>개발자 이유</h2>
+      <textarea></textarea>
+    </div>
+
+    <h2>사용해본 기술</h2>
+    <div>
+      <input type="checkbox" />
+      <label>Java</label>
+    </div>
+    <div>
+      <input type="checkbox" />
+      <label>c언어</label>
+    </div>
+    <div>
+      <input type="checkbox" />
+      <label>Python</label>
+    </div>
+    <div>
+      <input type="checkbox" />
+      <label>html/css</label>
+    </div>
+    <div>
+      <input type="checkbox" />
+      <label>js</label>
+    </div>
+    <div>
+      <input type="checkbox" />
+      <label>sql</label>
+    </div>
+
+    <h2>희망 부서</h2>
+    <div><input type="radio" name="team" /><label>프론트 엔드</label></div>
+    <div><input type="radio" name="team" /><label>백 엔드</label></div>
+    <div><input type="radio" name="team" /><label>데이터베이스</label></div>
+  </body>
+</html>
