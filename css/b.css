@@ -1,0 +1,19 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.male {
+  background-color: skyblue;
+}
+
+.female {
+  background-color: pink;
+}
+
+ul {
+  list-style: none;
+}
+
+#ceo {
+  color: white;
+}
