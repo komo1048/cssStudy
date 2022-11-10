@@ -1,0 +1,12 @@
+div {
+  width: 10px;
+  height: 10px;
+  background-color: aquamarine;
+  margin: 5px;
+  padding: 10px;
+}
+
+span {
+  background-color: chartreuse;
+  padding: 10px;
+}
